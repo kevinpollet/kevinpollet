@@ -11,8 +11,8 @@ Java, TypeScript, Node.js, Docker, AWS & OSS 🚀
 Vinyl Records 😍
 Photography 📷
 
-{blue ❯} Twitter: https://twitter.com/kevinpollet
-{blue ❯} GitHub: https://github.com/kevinpollet
+{blue ❯} Twitter:  https://twitter.com/kevinpollet
+{blue ❯} GitHub:   https://github.com/kevinpollet
 {blue ❯} LinkedIn: https://www.linkedin.com/in/kevinpollet
 `;
 
