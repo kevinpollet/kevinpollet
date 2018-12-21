@@ -1,0 +1,19 @@
+{
+  "name": "kevinpollet",
+  "version": "0.1.0",
+  "bin": {
+    "kevinpollet": "bin/card.js"
+  },
+  "description": "NPM card for Kevin Pollet (@kevinpollet)",
+  "author": "kevinpollet <pollet.kevin@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kevinpollet/kevinpollet#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinpollet/kevinpollet.git"
+  },
+  "dependencies": {
+    "boxen": "2.1.0",
+    "chalk": "2.4.1"
+  }
+}
