@@ -1,16 +1,23 @@
 {
   "name": "kevinpollet",
-  "version": "1.0.1",
-  "bin": {
-    "kevinpollet": "bin/card.js"
-  },
   "description": "NPM card for Kevin Pollet (@kevinpollet)",
+  "version": "1.0.1",
   "author": "kevinpollet <pollet.kevin@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/kevinpollet/kevinpollet#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinpollet/kevinpollet.git"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card"
+  ],
+  "bin": {
+    "kevinpollet": "bin/card.js"
   },
   "files": [
     "bin/card.js"
