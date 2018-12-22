@@ -19,14 +19,21 @@
   "bin": {
     "kevinpollet": "bin/card.js"
   },
-  "files": [
-    "bin/card.js"
-  ],
-  "dependencies": {
-    "boxen": "2.1.0",
-    "chalk": "2.4.1"
+  "scripts": {
+    "clean": "rm -f bin/output",
+    "build": "node scripts/build.js",
+    "dev": "node bin/card.js",
+    "prebuild": "npm run clean",
+    "predev": "npm run build",
+    "prepack": "npm run build"
   },
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
   "devDependencies": {
+    "boxen": "2.1.0",
+    "chalk": "2.4.1",
     "husky": "1.3.0",
     "lint-staged": "8.1.0",
     "prettier": "1.15.3"
