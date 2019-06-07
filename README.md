@@ -8,4 +8,4 @@ $ npx kevinpollet
 
 ## License
 
-See [LICENSE.md](./LICENSE.md)
+[MIT](./LICENSE.md)
