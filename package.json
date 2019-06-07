@@ -5,10 +5,8 @@
   "author": "kevinpollet <pollet.kevin@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/kevinpollet/kevinpollet#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kevinpollet/kevinpollet.git"
-  },
+  "bugs": "https://github.com/kevinpollet/kevinpollet/issues",
+  "repository": "github:kevinpollet/kevinpollet",
   "keywords": [
     "card",
     "npm",
@@ -28,8 +26,7 @@
     "prepack": "npm run build"
   },
   "files": [
-    "bin/card.js",
-    "bin/output"
+    "bin"
   ],
   "devDependencies": {
     "boxen": "4.0.0",
@@ -39,16 +36,14 @@
     "prettier": "1.18.0"
   },
   "husky": {
-    "husky": {
-      "hooks": {
-        "pre-commit": "lint-staged"
-      }
-    },
-    "lint-staged": {
-      "*": [
-        "prettier --write",
-        "git add"
-      ]
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{json,md,js}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
