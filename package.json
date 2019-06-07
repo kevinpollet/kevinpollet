@@ -21,6 +21,7 @@
     "clean": "rm -f bin/output",
     "build": "node scripts/build.js",
     "dev": "node bin/card.js",
+    "format": "prettier --write --trailing-comma es5 '{scripts,bin}/**/*.js' '*.{json,md,js}'",
     "prebuild": "npm run clean",
     "predev": "npm run build",
     "prepack": "npm run build"
