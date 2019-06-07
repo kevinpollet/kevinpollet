@@ -1,3 +1,5 @@
+# npm card &middot; [![Build Status](https://travis-ci.com/kevinpollet/kevinpollet.svg?branch=master)](https://travis-ci.com/kevinpollet/kevinpollet)
+
 ## Usage
 
 ```shell
