@@ -6,7 +6,7 @@
 $ npx kevinpollet
 ```
 
-👉 Hightly inspired by [@bitandbang](https://github.com/bnb/bitandbang) card.
+👉 Highly inspired by [@bitandbang](https://github.com/bnb/bitandbang) card.
 
 ## License
 
