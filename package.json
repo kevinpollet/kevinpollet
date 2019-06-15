@@ -1,6 +1,6 @@
 {
   "name": "kevinpollet",
-  "description": "NPM card for Kevin Pollet (@kevinpollet)",
+  "description": "npm card for Kevin Pollet (@kevinpollet)",
   "version": "1.1.1",
   "author": "kevinpollet <pollet.kevin@gmail.com>",
   "license": "MIT",
@@ -14,9 +14,10 @@
     "npx",
     "npx card"
   ],
-  "bin": {
-    "kevinpollet": "bin/card.js"
-  },
+  "bin": "bin/card.js",
+  "files": [
+    "bin"
+  ],
   "scripts": {
     "clean": "rm -f bin/output",
     "build": "node scripts/build.js",
@@ -26,9 +27,6 @@
     "predev": "npm run build",
     "prepack": "npm run build"
   },
-  "files": [
-    "bin"
-  ],
   "devDependencies": {
     "boxen": "4.0.0",
     "chalk": "2.4.2",
