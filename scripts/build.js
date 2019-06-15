@@ -23,6 +23,6 @@ fs.writeFileSync(
   boxen(card, {
     borderStyle: "round",
     margin: 1,
-    padding: 1
+    padding: 1,
   })
 );

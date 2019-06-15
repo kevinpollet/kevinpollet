@@ -21,7 +21,7 @@
     "clean": "rm -f bin/output",
     "build": "node scripts/build.js",
     "dev": "node bin/card.js",
-    "format": "prettier --write --trailing-comma es5 '{scripts,bin}/**/*.js' '*.{json,md,js}'",
+    "format": "prettier --write '{scripts,bin}/**/*.js' '*.{json,md,yml}'",
     "prebuild": "npm run clean",
     "predev": "npm run build",
     "prepack": "npm run build"
@@ -36,13 +36,16 @@
     "lint-staged": "8.2.0",
     "prettier": "1.18.0"
   },
+  "prettier": {
+    "trailingComma": "es5"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.{json,md,js}": [
+    "*.{json,md,js,yml}": [
       "prettier --write",
       "git add"
     ]
