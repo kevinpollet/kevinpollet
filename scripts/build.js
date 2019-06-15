@@ -9,8 +9,8 @@ const card = chalk`
 Kevin Pollet {green /} @kevinpollet
 
 Software Tech Lead @hl2
-Java, TypeScript, Node.js, Docker, AWS & OSS 😍
-Vinyl Records
+Java, TypeScript, Node.js, Docker, AWS & OSS 🚀
+Vinyl Records 😍
 
  {bold Twitter:}  {blue https://twitter.com/kevinpollet}
   {bold GitHub:}  {blue https://github.com/kevinpollet}
