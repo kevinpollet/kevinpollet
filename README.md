@@ -10,4 +10,4 @@ $ npx kevinpollet
 
 ## License
 
-[MIT](./LICENSE.md)
+[MIT](./LICENSE.md) © kevinpollet
