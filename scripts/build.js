@@ -6,15 +6,17 @@ const chalk = require("chalk");
 const path = require("path");
 
 const card = chalk`
-Kevin Pollet {green /} @kevinpollet
+{bold Kevin Pollet / @kevinpollet}
 
-Software Tech Lead @hl2
-Java, TypeScript, Node.js, Docker, AWS & OSS 🚀
-Vinyl Records 😍
+✦ Software Tech Lead @hl2
+✦ Java, TypeScript, Go, Node.js, Docker, AWS
+✦ OSS Enthusiast
+✦ Vinyl Records 😍
 
- {bold Twitter:}  {blue https://twitter.com/kevinpollet}
-  {bold GitHub:}  {blue https://github.com/kevinpollet}
-{bold LinkedIn:}  {blue https://www.linkedin.com/in/kevinpollet}
+🐦 {blue https://twitter.com/kevinpollet}
+👨‍💻 {blue https://github.com/kevinpollet}
+👨‍💼 {blue https://www.linkedin.com/in/kevinpollet}
+🌐 {blue https://kevinpollet.dev}
 `;
 
 fs.writeFileSync(
