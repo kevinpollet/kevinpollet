@@ -8,15 +8,16 @@ const path = require("path");
 const card = chalk`
 {bold Kevin Pollet / @kevinpollet}
 
-✦ Software Tech Lead @hl2
+✦ Software Tech Lead
 ✦ Java, TypeScript, Go, Node.js, Docker, AWS
-✦ OSS Enthusiast
+✦ OSS ❤
 ✦ Vinyl Records 😍
+✦ Hiking ⛰
 
 🐦 {blue https://twitter.com/kevinpollet}
 👨‍💻 {blue https://github.com/kevinpollet}
 👨‍💼 {blue https://www.linkedin.com/in/kevinpollet}
-🌐 {blue https://kevinpollet.dev}
+🌐 {blue https://kevinpollet.codes}
 `;
 
 fs.writeFileSync(
