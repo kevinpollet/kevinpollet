@@ -5,7 +5,6 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node: [8, 10, 12]
@@ -14,7 +13,28 @@ jobs:
       - uses: actions/checkout@master
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build card
         run: npm run build
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+
+      - uses: actions/setup-node@v1
+        with:
+          version: 12
+          registry-url: https://registry.npmjs.org/
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Publish
+        if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags')
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish
