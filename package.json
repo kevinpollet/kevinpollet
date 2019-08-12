@@ -22,7 +22,7 @@
     "clean": "rm -f bin/output",
     "build": "node scripts/build.js",
     "dev": "node bin/card.js",
-    "format": "prettier --write '{scripts,bin}/**/*.js' '*.{json,md,yml}'",
+    "format": "prettier --write '{scripts,bin}/**/*.js' '*.{json,md}'",
     "prebuild": "npm run clean",
     "predev": "npm run build",
     "prepack": "npm run build"
@@ -43,7 +43,7 @@
     }
   },
   "lint-staged": {
-    "*.{json,md,js,yml}": [
+    "*.{json,md,js}": [
       "prettier --write",
       "git add"
     ]
