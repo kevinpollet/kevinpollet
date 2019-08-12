@@ -28,11 +28,11 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "boxen": "4.1.0",
-    "chalk": "2.4.2",
-    "husky": "3.0.3",
-    "lint-staged": "9.2.1",
-    "prettier": "1.18.2"
+    "boxen": "^4.1.0",
+    "chalk": "^2.4.2",
+    "husky": "^3.0.3",
+    "lint-staged": "^9.2.1",
+    "prettier": "^1.18.2"
   },
   "prettier": {
     "trailingComma": "es5"
