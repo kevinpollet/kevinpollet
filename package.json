@@ -19,13 +19,11 @@
     "bin"
   ],
   "scripts": {
-    "clean": "rm -f bin/output",
-    "build": "node scripts/build.js",
+    "build": "rm -f bin/output && node scripts/build.js",
     "dev": "node bin/card.js",
-    "format": "prettier --write '{scripts,bin}/**/*.js' '*.{json,md}'",
-    "prebuild": "npm run clean",
+    "format": "prettier --write '{scripts,bin,.github}/**/*.{js,yml}' '*.{json,md}'",
     "predev": "npm run build",
-    "prepack": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "boxen": "^4.1.0",
