@@ -5,8 +5,6 @@ const boxen = require("boxen");
 const chalk = require("chalk");
 const path = require("path");
 
-chalk.level = 3;
-
 const card = chalk`
 {bold Kevin Pollet / @kevinpollet}
 
