@@ -1,4 +1,4 @@
-name: Build & Publish
+name: build
 
 on: [push, pull_request]
 
@@ -21,6 +21,7 @@ jobs:
   publish:
     needs: build
     runs-on: ubuntu-latest
+    if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags')
 
     steps:
       - uses: actions/checkout@master
@@ -31,7 +32,6 @@ jobs:
 
       - run: npm ci
       - run: npm publish
-        if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags')
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
