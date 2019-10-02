@@ -15,8 +15,8 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - run: npm ci
-      - run: npm run build
+      - run: npm install
+      - run: npm start
 
   publish:
     needs: build
@@ -27,10 +27,10 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 8
           registry-url: https://registry.npmjs.org/
 
-      - run: npm ci
+      - run: npm install
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
