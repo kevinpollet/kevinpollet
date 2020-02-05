@@ -23,13 +23,13 @@
     "format": "prettier --write '**/*.{js,yml}' '*.{json,md}'"
   },
   "dependencies": {
-    "boxen": "^4.1.0",
-    "chalk": "^2.4.2"
+    "boxen": "^4.2.0",
+    "chalk": "^3.0.0"
   },
   "devDependencies": {
-    "husky": "^3.0.8",
-    "prettier": "1.18.2",
-    "pretty-quick": "^1.11.1"
+    "husky": "^3.1.0",
+    "prettier": "1.19.1",
+    "pretty-quick": "^2.0.1"
   },
   "prettier": {
     "trailingComma": "es5"
