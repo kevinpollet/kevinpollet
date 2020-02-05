@@ -9,15 +9,14 @@ const card = chalk`
 {bold Kevin Pollet / @kevinpollet}
 
 ✦ Software Engineer
-✦ TypeScript, JavaScript, Go, Java, Node.js, Docker, AWS
-✦ OSS ❤
-✦ Vinyl Records 😍
-✦ Hiking ⛰
+✦ Open Source Enthusiast
+✦ Go, TypeScript, JavaScript, Java, Node.js, Docker, Cloud, DevOps
+✦ Vinyl Records & Hiking {red ❤}
 
-{blue https://twitter.com/kevinpollet}
-{blue https://github.com/kevinpollet}
-{blue https://www.linkedin.com/in/kevinpollet}
-{blue https://kevinpollet.dev}
+{bold GitHub:}    https://github.com/{bold {blue kevinpollet}}
+{bold Twitter:}   https://twitter.com/{bold {blue kevinpollet}}
+{bold LinkedIn:}  https://www.linkedin.com/in/{bold {blue kevinpollet}}
+{bold Web:}       {bold {blue https://kevinpollet.dev}}
 `;
 
 console.log(
