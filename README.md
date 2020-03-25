@@ -8,7 +8,7 @@ Highly inspired by [@bitandbang](https://github.com/bnb/bitandbang) card 🙏
 ## Usage
 
 ```shell
-$ npx kevinpollet
+npx kevinpollet
 ```
 
 ## License
