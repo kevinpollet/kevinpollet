@@ -20,7 +20,7 @@
   ],
   "scripts": {
     "start": "node bin/card.js",
-    "format": "prettier --write '**/*.{js,yml}' '*.{json,md}'"
+    "format": "prettier --write '**/*.{js,json,md,yml}'"
   },
   "dependencies": {
     "boxen": "^4.2.0",
