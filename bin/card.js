@@ -5,22 +5,21 @@
 const boxen = require("boxen");
 const chalk = require("chalk");
 
-const card = chalk`
-{bold Kevin Pollet / @kevinpollet}
+const card = chalk`{bold Kevin Pollet {blue /} kevinpollet}
 
-✦ Software Engineer
+✦ Software Engineer {bold @Containous}
 ✦ Open Source Enthusiast
-✦ Go, TypeScript, JavaScript, Java, Node.js, Docker, Cloud, DevOps
-✦ Vinyl Records & Hiking {red ❤}
+✦ Passionate learner and coder
+✦ Go, TypeScript, Java, Node.js, Containers, Cloud, DevOps
 
-{bold GitHub:}    https://github.com/{bold {blue kevinpollet}}
-{bold Twitter:}   https://twitter.com/{bold {blue kevinpollet}}
-{bold LinkedIn:}  https://www.linkedin.com/in/{bold {blue kevinpollet}}
-{bold Web:}       {bold {blue https://kevinpollet.dev}}
-`;
+{bold GitHub:}    {gray https://github.com/}{bold kevinpollet}
+{bold Twitter:}   {gray https://twitter.com/}{bold @kevinpollet}
+{bold LinkedIn:}  {gray https://www.linkedin.com/in/}{bold kevinpollet}
+{bold Website:}   {bold https://kevinpollet.dev}`;
 
 console.log(
   boxen(card, {
+    borderColor: "blue",
     borderStyle: "round",
     margin: 1,
     padding: 1,
