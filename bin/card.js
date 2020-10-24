@@ -7,7 +7,7 @@ const chalk = require("chalk");
 
 const card = chalk`{bold Kevin Pollet {blue /} kevinpollet}
 
-✦ Software Engineer {bold @Containous}
+✦ Software Engineer {bold @TraefikLabs}
 ✦ Open Source Enthusiast
 ✦ Passionate learner and coder
 ✦ Go, TypeScript, Java, Node.js, Containers, Cloud, DevOps
