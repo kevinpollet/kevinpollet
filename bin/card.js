@@ -10,7 +10,7 @@ const card = chalk`{bold Kevin Pollet {blue /} kevinpollet}
 ✦ Software Engineer {bold @TraefikLabs}
 ✦ Open Source Enthusiast
 ✦ Passionate learner and coder
-✦ Go, TypeScript, Java, Node.js, Containers, Cloud, DevOps
+✦ Go, Containers, Cloud and DevOps addict
 
 {bold GitHub:}    {gray https://github.com/}{bold kevinpollet}
 {bold Twitter:}   {gray https://twitter.com/}{bold @kevinpollet}
